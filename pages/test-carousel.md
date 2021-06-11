@@ -21,7 +21,7 @@ Visit the full [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital
 ## Test Carousel
 
 This is a test carousel image.
-{% include feature/test-carousel.html title="Sample Carousel" %}
+{% include feature/select-carousel.html title="Sample Carousel" %}
 
 
 <!-- IMPORTANT!!! DELETE everything below this comment (and this comment) when you are finished editing this page for your collection. The included file below includes instructions for inserting features into your about page. They will show up on your collection's about page until you delete it.  -->
