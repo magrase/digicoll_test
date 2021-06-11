@@ -20,7 +20,6 @@ Visit the full [Psychiana Digital Collection](https://www.lib.uidaho.edu/digital
 
 ## Test Carousel
 
-This is a test carousel image.
 {% include feature/select-carousel.html title="Sample Carousel" %}
 
 

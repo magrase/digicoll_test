@@ -26,7 +26,7 @@
     Set up carousel div
 {%- endcomment -%}
 <style>
-    #imageCarousel .carousel-item { height: {{ include.height | remove: 'px' | strip | default: '300' }}px; }
+    #imageCarousel .carousel-item { height: {{ include.height | remove: 'px' | strip | default: '500' }}px; }
 </style>
 <div class="card mb-3">
     {% if include.header %}<h5 class="card-header">{{ include.header }}</h5>{% endif %}
@@ -38,14 +38,14 @@
                 
             </ol>
             <div id="carouselInner" class="carousel-inner">
-                <div class="carousel-item active"><img src="https://www.siue.edu/lovejoy-library/archives/guesswho/img/altes_jane.jpg" class="d-block w -100" alt="Jane Altes">
-                    <div class="carousel-caption d-non d-md-block">
+                <div class="carousel-item active"><img src="https://www.siue.edu/lovejoy-library/archives/guesswho/img/altes_jane.jpg" class="d-block h-100 mx-auto" alt="Jane Altes">
+                    <div class="carousel-caption opacity-1 bg-dark">
                         <h5>Jane Altes</h5>
                         <p>Placeholder text about Jane Altes.</p>
                     </div>
                 </div>
-                <div class="carousel-item"><img src="https://www.siue.edu/lovejoy-library/archives/guesswho/img/altes_jane.jpg" class="d-block w-100" alt="Jane Altes 2">
-                    <div class="carousel-caption d-none d-md-block">
+                <div class="carousel-item"><img src="https://www.siue.edu/lovejoy-library/archives/guesswho/img/altes_jane.jpg" class="d-block h-100 mx-auto lazyload" alt="Jane Altes 2">
+                    <div class="carousel-caption">
                         <h5>Jane Altes 2</h5>
                         <p>Placeholder text about Jane Altes 2.</p>
                     </div>
